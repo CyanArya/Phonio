@@ -1,0 +1,26 @@
+/* [project]/components/videocall/VideoCall.css [app-client] (css) */
+.video-popup {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  z-index: 1000;
+  resize: both;
+  overflow: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=components_videocall_VideoCall_b52d8e88.css.map*/

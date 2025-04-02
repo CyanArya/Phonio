@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/videocall/VideoCall.css"],"sourcesContent":[".video-popup {\r\n    position: fixed;\r\n    bottom: 10px;\r\n    right: 10px;\r\n    width: 300px;\r\n    height: 200px;\r\n    background: white;\r\n    border: 1px solid black;\r\n    padding: 10px;\r\n    z-index: 1000;\r\n    resize: both;\r\n    overflow: auto;\r\n  }\r\n  \r\n  .close-btn {\r\n    position: absolute;\r\n    top: 5px;\r\n    right: 5px;\r\n    background: red;\r\n    color: white;\r\n    border: none;\r\n    cursor: pointer;\r\n  }\r\n  "],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;AAcE"}}]
+}

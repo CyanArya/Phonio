@@ -1,0 +1,168 @@
+/* [project]/components/videocall/VideoCall.module.css [app-client] (css) */
+.VideoCall-module__6kKtOW__video-call-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.VideoCall-module__6kKtOW__video-popup {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px #0000004d;
+  overflow: hidden;
+  pointer-events: all;
+  user-select: none;
+  touch-action: none;
+  will-change: transform;
+}
+
+.VideoCall-module__6kKtOW__video-container {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  pointer-events: none;
+}
+
+.VideoCall-module__6kKtOW__participant-count {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #00000080;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.VideoCall-module__6kKtOW__controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  z-index: 10;
+  pointer-events: all;
+}
+
+.VideoCall-module__6kKtOW__share-btn, .VideoCall-module__6kKtOW__close-btn {
+  background: #00000080;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background .2s;
+}
+
+.VideoCall-module__6kKtOW__share-btn:hover, .VideoCall-module__6kKtOW__close-btn:hover {
+  background: #000000b3;
+}
+
+.VideoCall-module__6kKtOW__share-dialog {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000c;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  z-index: 11;
+  animation: 2s ease-in-out VideoCall-module__6kKtOW__fadeInOut;
+  pointer-events: none;
+}
+
+@keyframes VideoCall-module__6kKtOW__fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.VideoCall-module__6kKtOW__loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.VideoCall-module__6kKtOW__error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f44;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  background: #000c;
+  border-radius: 8px;
+  pointer-events: all;
+}
+
+.VideoCall-module__6kKtOW__error button {
+  margin-top: 16px;
+  background: #f44;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+.VideoCall-module__6kKtOW__error button:hover {
+  background: #f66;
+}
+
+.lk-video-conference {
+  height: 100%;
+  width: 100%;
+}
+
+.lk-control-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #00000080;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.lk-participant-tile {
+  background: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=components_videocall_VideoCall_module_b52d8e88.css.map*/
