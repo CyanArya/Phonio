@@ -1,2 +1,19 @@
-Osmo Supply Clone
-A clone of Osmo Supply using Angular, Next.js, and JavaScript, with a Video Call Feature powered by LiveKit. The frontend is built with Angular for dashboards and Next.js for SSR. Install dependencies with npm install, then run ng serve for Angular and npm run dev for Next.js. The video call feature enables high-quality real-time communication using LiveKit. Contributions are welcome! 🚀
+# Phonio  
+
+A Next.js-based UI clone of Osmo Supply, featuring a responsive Hero section, Navbar, and Testimonials using plain CSS.  
+
+## Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/CyanArya/Phonio.git  
+   cd Phonio
+Install dependencies and start the development server:
+
+bash
+Copy
+Edit
+npm install  
+npm run dev  
+Live Demo
+Phonio on Vercel (Update after deployment).
+https://phonio-one.vercel.app/
