@@ -860,12 +860,12 @@ h1 {
   background: #f66;
 }
 
-.lk-video-conference {
+.VideoCall-module__6kKtOW__lkVideoConference {
   height: 100%;
   width: 100%;
 }
 
-.lk-control-bar {
+.VideoCall-module__6kKtOW__lkControlBar {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -877,7 +877,7 @@ h1 {
   gap: 16px;
 }
 
-.lk-participant-tile {
+.VideoCall-module__6kKtOW__lkParticipantTile {
   background: #2a2a2a;
   border-radius: 8px;
   overflow: hidden;

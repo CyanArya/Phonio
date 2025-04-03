@@ -131,12 +131,12 @@
 }
 
 /* LiveKit specific styles */
-:global(.lk-video-conference) {
+.lkVideoConference {
   height: 100%;
   width: 100%;
 }
 
-:global(.lk-control-bar) {
+.lkControlBar {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -148,9 +148,8 @@
   gap: 16px;
 }
 
-:global(.lk-participant-tile) {
+.lkParticipantTile {
   background: #2a2a2a;
   border-radius: 8px;
   overflow: hidden;
 }
-  

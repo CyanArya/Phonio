@@ -678,7 +678,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RebuildButton$
 ;
 ;
 ;
-const revalidate = 60; // 5 hours
+const revalidate = 60;
 async function Home() {
     const buildTime = new Date().toLocaleString();
     console.log(`Page built at: ${buildTime}`);

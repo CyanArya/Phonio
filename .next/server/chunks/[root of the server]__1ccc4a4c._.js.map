@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/dontu/Downloads/osmo-main/osmo-main/app/api/revalidate/route.js"],"sourcesContent":["import { revalidatePath } from 'next/cache';\nimport { redirect } from 'next/navigation';\n\nexport async function GET() {\n  try {\n    const buildTime = new Date().toLocaleString();\n    console.log(`Page rebuilt via API at: ${buildTime}`);\n    revalidatePath('/'); \n     \n\n    return new Response(JSON.stringify({ message: 'Page rebuilt via API at', buildTime }), {\n      status: 200,\n      headers: { 'Content-Type': 'application/json' },\n    });\n    \n  } catch (error) {\n    console.error('Revalidation failed:', error);\n    return new Response(JSON.stringify({ message: 'Revalidation failed' }), { status: 500 });\n  }\n}"],"names":[],"mappings":";;;AAAA;AACA;;;AAEO,eAAe;IACpB,IAAI;QACF,MAAM,YAAY,IAAI,OAAO,cAAc;QAC3C,QAAQ,GAAG,CAAC,CAAC,yBAAyB,EAAE,WAAW;QACnD,CAAA,GAAA,+HAAA,CAAA,iBAAc,AAAD,EAAE;QAGf,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC;YAAE,SAAS;YAA2B;QAAU,IAAI;YACrF,QAAQ;YACR,SAAS;gBAAE,gBAAgB;YAAmB;QAChD;IAEF,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,wBAAwB;QACtC,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC;YAAE,SAAS;QAAsB,IAAI;YAAE,QAAQ;QAAI;IACxF;AACF","debugId":null}}]
-}
